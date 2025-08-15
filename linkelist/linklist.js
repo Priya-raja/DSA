@@ -8,7 +8,12 @@ class Node {
 class LinkedList {
     constructor(){
         this.head = null;
+        this.size = 0
 
+    }
+
+    getLength(){
+        return this.size;
     }
 
     add(value){
@@ -21,6 +26,7 @@ class LinkedList {
         while(current.next){
             current = current.next;
         }
+        
         current.next = newNode;
     }
 //at the start
