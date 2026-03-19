@@ -34,4 +34,4 @@ root = TreeNode(1)
 root.right = TreeNode(2)
 root.right.left = TreeNode(3)
 
-sol = Solution()CFE{PV_}
+sol = Solution()
